@@ -43,4 +43,4 @@ return (<footer className={styles.footer}>
 
 };
 
-export default Footer
+export default Footer;

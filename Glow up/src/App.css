@@ -9,3 +9,56 @@
   left: 110px;
   top: 35px;
  }
+ 
+ .inf1 p{
+ 
+  width: 1160px;
+  position: relative;
+  left: 90px;
+  text-align: justify;
+  font-family: Arial, Helvetica, sans-serif;
+ }
+ .inf1 h2{
+  top:150px;
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ }
+ 
+ .inf1 h4{
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ }
+
+ .inf2 p{
+  text-align: justify;
+  width: 500px;
+  position: relative;
+  left: 90px;
+  top:150px;
+  font-family: Arial, Helvetica, sans-serif;
+ }
+ 
+ .inf2 h4{
+  top:150px;
+  position: relative;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  padding-left: 250px ;
+ }
+
+ .inf3 p{
+  text-align: justify;
+  width: 500px;
+  position: relative;
+  left: 750px;
+
+  font-family:Arial, Helvetica, sans-serif;
+ }
+
+ .inf3 h4{
+  position: relative;
+  padding-left: 950px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
+ }
+
+
