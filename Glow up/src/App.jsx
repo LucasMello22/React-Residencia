@@ -21,7 +21,10 @@ function App() {
             A Residência Onboard é um programa para formar capital humano na área de TI que aproxima os estudantes do mercado de trabalho por meio de uma imersão prática e desafios reais lançados pelas empresas e mentorados pelo Porto Digital. 
             A residência do Porto Digital acontece através das parcerias com instituições de Ensino Superior com cursos tecnólogos na área de TI. As matrizes curriculares são adaptadas às necessidades do mercado de trabalho de tecnologia. Além disso, os estudantes contam com atividades da Residência realizadas diretamente com empresas embarcadas no Porto Digital. Garantindo experiências baseadas no dia a dia do mercado e maior empregabilidade.
            </p>
-          <h2>Quer participar da Residência Onboard? </h2>
+          
+        </div>
+        <div className='inform'>
+          <h2  >Quer participar da Residência Onboard?</h2>
           <h4>Para fazer parte do nosso grupo de estudantes existem duas maneiras de ingressar. </h4>
         </div>
         <div className='inf2'>
