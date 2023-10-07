@@ -7,7 +7,11 @@ function Footer() {
 return (<footer className={styles.footer}>
     <ul className={styles.ul}>
         <li>
+<<<<<<< HEAD
             <a href='https://www.facebook.com/facebook' className={styles.hrefs} target='_blank'>
+=======
+            <a href='www.google.com' className={styles.hrefs} target='_blank'>
+>>>>>>> e13d4f51fdb3ef1d9ef3e66904a9d692a6e90328
                 <FaFacebook />
             </a>
         </li>
