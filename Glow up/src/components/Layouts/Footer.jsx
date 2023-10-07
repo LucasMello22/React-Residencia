@@ -7,7 +7,7 @@ function Footer() {
 return (<footer className={styles.footer}>
     <ul className={styles.ul}>
         <li>
-            <a href='' className={styles.hrefs} target='_blank'>
+            <a href='www.google.com' className={styles.hrefs} target='_blank'>
                 <FaFacebook />
             </a>
         </li>
