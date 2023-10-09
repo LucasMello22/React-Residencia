@@ -13,12 +13,20 @@ import {
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Home />
-  },
-  {
-    path: "contact",
-    element: <Contact />
-  },
+    element: <App />,
+    children: [
+      {
+        path: "contact",
+        element: <Contact />,
+      },
+      {
+        path: "/",
+        element: <Home />,
+      },
+    ],
+    }
+    
+
 ]);
 
 ReactDOM.createRoot(document.getElementById('root')).render(

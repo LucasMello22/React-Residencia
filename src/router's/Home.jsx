@@ -1,14 +1,11 @@
 import React from 'react'
-import Header from '../components/Layouts/Header'
-import Footer from '../components/Layouts/Footer'
+  
 import "../App.css"
 
 const Home = () => {
   return (
     <div>
-         <header>
-    <Header />
-    </header>
+         
     <body>
         <div className='inf1'>
         <h2 >Sobre nós</h2>
@@ -40,7 +37,7 @@ const Home = () => {
 
     </body>
     
-    <Footer />
+  
       
     </div>
   )
