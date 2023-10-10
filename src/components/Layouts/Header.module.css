@@ -8,6 +8,13 @@ nav{
     justify-content: space-between;
     min-width: 650px;
 }
+
+nav div{
+    min-width: 160px;  
+    padding: 12px 16px;
+    z-index: 1;
+}
+
 nav div img{
     width: 250px;
 }
