@@ -1,8 +1,9 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
-import Home from './router\'s/Home.jsx';
-import Contact from './router\'s/Contact.jsx';
+import App2 from './App2.jsx'
+import Home from './routers/Home.jsx';
+import Contact from './routers/mentor/Contact.jsx';
 
 // configurando Router
 import {
@@ -16,12 +17,17 @@ const router = createBrowserRouter([
     element: <App />,
     children: [
       {
-        path: "contact",
-        element: <Contact />,
-      },
-      {
         path: "/",
         element: <Home />,
+      },
+    ],},
+    {
+    path: "contact",
+    element: <App2 />,
+    children: [
+      {
+        path: "contact",
+        element: <Contact />,
       },
     ],
     }
