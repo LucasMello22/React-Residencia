@@ -4,9 +4,8 @@ import "../App.css"
 
 const Home = () => {
   return (
-    <div>
-         
-    <body>
+    
+    <div className='container'>
         <div className='inf1'>
         <h2 >Sobre nós</h2>
            <p>
@@ -35,7 +34,7 @@ const Home = () => {
           </p>
         </div>
 
-    </body>
+    
     
   
       
