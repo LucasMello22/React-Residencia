@@ -9,14 +9,39 @@
   }
   
   .info-section {
-    margin-bottom: 20px;
     text-align: justify;
   }
   
   .info-section h2{
-    text-align: center;
+    text-align: left;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  .info-section p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    margin-bottom: 20px;
   }
   
+.info-section h3{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.info-section2 h4{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+    margin-bottom: 25px;
+}
+
+.info-section2 p{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
 .info-section2{
     display: flex;
     flex-direction: row;

@@ -11,7 +11,7 @@ const Home = () => {
         </p>
       </div>
       <div className='info-section'>
-        <h2>Quer participar da Residência Onboard?</h2>
+        <h3>Quer participar da Residência Onboard?</h3>
         <h3>Para fazer parte do nosso grupo de estudantes existem duas maneiras de ingressar.</h3>
       </div>
       <div className='info-section2'>
