@@ -17,7 +17,13 @@
     text-align: center;
   }
   
+.info-section2{
+    display: flex;
+    flex-direction: row;
+    text-align: justify;
+    
+}
 
-  
-  /* Adicione mais estilos conforme necessário */
-  
+.info-section2 div{
+    margin: 20px 20px 10px 5px;
+}

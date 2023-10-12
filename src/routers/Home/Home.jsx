@@ -12,19 +12,21 @@ const Home = () => {
       </div>
       <div className='info-section'>
         <h2>Quer participar da Residência Onboard?</h2>
-        <h4>Para fazer parte do nosso grupo de estudantes existem duas maneiras de ingressar.</h4>
+        <h3>Para fazer parte do nosso grupo de estudantes existem duas maneiras de ingressar.</h3>
       </div>
-      <div className='info-section'>
-        <h4>Ingresse via Embarque Digital</h4>
-        <p>
-          O Embarque Digital é um programa educacional em parceria com a Prefeitura do Recife, que oferece bolsas de estudo em cursos superiores na área de tecnologia. Todos os semestres são abertos centenas de vagas para novos estudantes, acompanhe pelo nosso Insta ou Linkedin.
-        </p>
-      </div>
-      <div className='info-section'>
-        <h4>Ingresse via Instituição de Ensino</h4>
-        <p>
-          Porto Digital contam com matriz curricular preparada especialmente para ampliar a empregabilidade e o acesso ao mercado de trabalho. Nessas instituições a Residência Onboard é uma disciplina obrigatória. As instituições são: UNIT, SENAC, FICR, UNINASSAU, Instituto Federal e Universidade Católica.
-        </p>
+      <div className='info-section2'>
+          <div >
+            <h4>Ingresse via Embarque Digital</h4>
+            <p>
+              O Embarque Digital é um programa educacional em parceria com a Prefeitura do Recife, que oferece bolsas de estudo em cursos superiores na área de tecnologia. Todos os semestres são abertos centenas de vagas para novos estudantes, acompanhe pelo nosso Insta ou Linkedin.
+            </p>
+          </div>
+          <div >
+            <h4>Ingresse via Instituição de Ensino</h4>
+            <p>
+              Porto Digital contam com matriz curricular preparada especialmente para ampliar a empregabilidade e o acesso ao mercado de trabalho. Nessas instituições a Residência Onboard é uma disciplina obrigatória. As instituições são: UNIT, SENAC, FICR, UNINASSAU, Instituto Federal e Universidade Católica.
+            </p>
+          </div>
       </div>
     </div>
   );
