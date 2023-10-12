@@ -1,0 +1,23 @@
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .info-section {
+    margin-bottom: 20px;
+    text-align: justify;
+  }
+  
+  .info-section h2{
+    text-align: center;
+  }
+  
+
+  
+  /* Adicione mais estilos conforme necessário */
+  

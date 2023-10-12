@@ -2,7 +2,7 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
 import App2 from './App2.jsx'
-import Home from './routers/Home.jsx';
+import Home from './routers/Home/Home.jsx';
 import Contact from './routers/mentor/Contact.jsx';
 
 // configurando Router
