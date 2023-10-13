@@ -1,8 +1,8 @@
 import Carousel from 'react-bootstrap/Carousel';
 //import ExampleCarouselImage from 'components/ExampleCarouselImage';
-import image1 from 'C:\\Users\\neto\\Desktop\\Estudos ADS\\React-Residencia\\React-Residencia\\src\\image\\Embarque_Digital_logo.jpg';
-import image2 from 'C:\\Users\\neto\\Desktop\\Estudos ADS\\React-Residencia\\React-Residencia\\src\\image\\Embarque_Imagem1.jpg';
-import image3 from 'C:\\Users\\neto\\Desktop\\Estudos ADS\\React-Residencia\\React-Residencia\\src\\image\\Embarque_Imagem4.jpg';
+import image1 from '../../image/Embarque_Imagem2.jpg';
+import image2 from '../../image/Embarque_Imagem1.jpg';
+import image3 from '../../image/Embarque_Imagem4.jpg';
 
 function Slider() {
   return (
