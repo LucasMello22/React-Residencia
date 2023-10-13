@@ -6,7 +6,7 @@ const Mentor = () => {
   return (
     <div>
       <center>
-      <h1>Pagina de contatos</h1>
+      <h1>Pagina do perfil do mentor</h1>
       <p> Tentativa em vão</p>
       </center>
     </div>

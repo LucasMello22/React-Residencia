@@ -1,10 +1,11 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import App from './App.jsx'
+import App from './App.jsx'w
 import App2 from './App2.jsx'
 import Home from './routers/Home/Home.jsx';
-import Mentor from './routers/mentor/MentorInicial.jsx';
 
+import Mentor from './routers/mentor/MentorInicial.jsx';
+import MenTurma from './routers/mentor/MentorTurmas.jsx';
 // configurando Router
 import {
   createBrowserRouter, RouterProvider
@@ -29,7 +30,11 @@ const router = createBrowserRouter([
       {
         path: "mentor",
         element: <Mentor />,
-      },
+      },     
+      {
+        path: "/mentor/turma",
+        element: <MenTurma />,
+      },   
     ],
     }
     
