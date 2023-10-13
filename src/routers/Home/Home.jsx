@@ -3,6 +3,7 @@ import React from 'react';
 import './Home.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Slider from './slider';
+
 function Home() {
   return (
     <div className='container'>
