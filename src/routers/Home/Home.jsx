@@ -2,7 +2,7 @@ import React from 'react';
 //import "../App.css";
 import './Home.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Slider from './slider';
+import Slider from '../../components/SlideShow/slide';
 
 function Home() {
   return (
