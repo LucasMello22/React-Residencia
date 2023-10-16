@@ -1,5 +1,6 @@
 import Carousel from 'react-bootstrap/Carousel';
 //import ExampleCarouselImage from 'components/ExampleCarouselImage';
+import './slide.css'
 import image1 from '../../image/Embarque_Imagem2.jpg';
 import image2 from '../../image/Embarque_Imagem1.jpg';
 import image3 from '../../image/Embarque_Imagem4.jpg';
