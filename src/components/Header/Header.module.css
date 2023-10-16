@@ -26,14 +26,10 @@ nav div a{
     background-color: #D9D9D9;;
     padding: 10px;
     border-radius: 15px ;
-   
+    text-decoration: none;
 
-    color: #6B6262;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
+    color: #0a0a0a;
+   
 }
 
 nav div a:hover{
@@ -57,4 +53,8 @@ nav div a span{
 .button:hover{
     background-color: rgb(165, 165, 165);
     cursor: pointer;
+}
+
+.aimg{
+    background-color: transparent;
 }
