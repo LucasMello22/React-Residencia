@@ -6,6 +6,10 @@ import Home from './routers/Home/Home.jsx';
 
 import Mentor from './routers/mentor/MentorInicial.jsx';
 import MenTurma from './routers/mentor/MentorTurmas.jsx';
+
+import Singin from './routers/Singin/Singin.jsx'
+import Singup from './routers/Singup/Singup.jsx'
+
 // configurando Router
 import {
   createBrowserRouter, RouterProvider
@@ -21,6 +25,14 @@ const router = createBrowserRouter([
         path: "/",
         element: <Home />,
       },
+      {
+        path: "/Singin",
+        element: <Singin />,
+      }, 
+      {
+        path: "/Singup",
+        element: <Singup />,
+      }, 
     
     ],},
     {
