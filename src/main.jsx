@@ -26,11 +26,11 @@ const router = createBrowserRouter([
         element: <Home />,
       },
       {
-        path: "/Singin",
+        path: "/singin",
         element: <Singin />,
       }, 
       {
-        path: "/Singup",
+        path: "/singup",
         element: <Singup />,
       }, 
     
