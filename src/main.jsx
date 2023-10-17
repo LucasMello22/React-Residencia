@@ -7,6 +7,7 @@ import Home from './routers/Home/Home.jsx';
 import Mentor from './routers/mentor/MentorInicial.jsx';
 import MenTurma from './routers/mentor/MentorTurmas.jsx';
 import MenDiscussao from './routers/mentor/MentorDiscussao.jsx';
+import MenCalendario from './routers/mentor/MentorCalendario.jsx';
 import Singin from './routers/Singin/Singin.jsx'
 import Singup from './routers/Singup/Singup.jsx'
 
@@ -14,6 +15,7 @@ import Singup from './routers/Singup/Singup.jsx'
 import {
   createBrowserRouter, RouterProvider
 } from "react-router-dom";
+
 
 
 const router = createBrowserRouter([
@@ -51,6 +53,10 @@ const router = createBrowserRouter([
         path: "/mentor/discussao",
         element: <MenDiscussao />,
       },   
+      {
+        path: "/mentor/calendario",
+        element: <MenCalendario />,
+      }
     ],
     }
     
