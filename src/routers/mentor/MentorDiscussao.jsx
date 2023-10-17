@@ -1,15 +1,14 @@
 import React from 'react';
-import { FaCentercode } from 'react-icons/fa';
+//import { FaCentercode } from 'react-icons/fa';
+import Table from 'react-bootstrap/Table';
+import Nav from 'react-bootstrap/Nav';
 
-import React from 'react';
-import { FaCentercode } from 'react-icons/fa';
 
-
-const Mentor = () => {
+const MentDiscussao = () => {
   return (
     <div>
       <center>
-      <h1>Pagina 2 </h1>
+      <h1>Discussão</h1>
       
       </center>
     </div>
