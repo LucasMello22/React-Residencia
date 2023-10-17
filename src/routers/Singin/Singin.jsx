@@ -7,7 +7,8 @@ import './Singin.css';
 function HorizontalExample() {
   return (
     <div className='container'>
-    <Form classname='form-container' id='forms'>
+    <div classname='formcontainer'>
+    <Form>
       <Form.Group as={Row} className="mb-3" controlId="formHorizontalEmail">
         <Form.Label column sm={2}>
           Email
@@ -18,9 +19,7 @@ function HorizontalExample() {
       </Form.Group>
 
       <Form.Group as={Row} className="mb-3" controlId="formHorizontalPassword">
-        <Form.Label column sm={2}>
-          Senha
-        </Form.Label>
+        <Form.Label column sm={2}>Senha</Form.Label>
         <Col sm={10}>
           <Form.Control type="password" placeholder="Senha" />
         </Col>
@@ -37,9 +36,10 @@ function HorizontalExample() {
         </Col>
       </Form.Group>
     </Form>
-
-    <Slider></Slider>
     </div>
+    <div className='slide'> <Slider></Slider></div>
+    </div>
+    
   );
 }
 
