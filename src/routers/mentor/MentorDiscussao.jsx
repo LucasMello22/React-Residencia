@@ -4,7 +4,7 @@ import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 //import Nav from 'react-bootstrap/Nav';
-import style from './MentorDiscussao.css';
+import './MentorDiscussao.css';
 //import { NavbarCollapse } from 'react-bootstrap';
 import Table from 'react-bootstrap/Table';
 
@@ -29,7 +29,7 @@ const MenDiscussao = () => {
         </Container>
       </Navbar>
 
-      <Table responsive="sm">
+      <Table responsive="sm" className="tabela">
         <thead>
           <tr>
             <th>#</th>
@@ -49,7 +49,7 @@ const MenDiscussao = () => {
           </tr>
         </tbody>
       </Table>
-      <Table responsive="sm">
+      <Table responsive="sm" className="tabela">
       <thead>
           <tr>
             <th>#</th>
