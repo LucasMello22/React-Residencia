@@ -11,7 +11,7 @@ function HorizontalExample() {
     <Form>
       <Form.Group as={Row} className="mb-3" controlId="formHorizontalEmail">
         <Form.Label column sm={2}>
-          Email
+          E-mail
         </Form.Label>
         <Col sm={10}>
           <Form.Control type="email" placeholder="Email" />
