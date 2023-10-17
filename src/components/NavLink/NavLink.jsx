@@ -10,7 +10,7 @@ const NavLink = () => {
 <Nav defaultActiveKey="/home" className="flex-column">
 <Nav.Link eventKey="Mentor" disabled><h4>Mentor</h4></Nav.Link>
 <Nav.Link href='/mentor/discussao'>Discussão</Nav.Link>
-<Nav.Link eventKey="link-2">Calendario</Nav.Link>
+<Nav.Link href= "/mentor/calendario">Calendario</Nav.Link>
 <Nav.Link eventKey="link-2">Notas</Nav.Link>
 <Nav.Link href='/mentor/turma'>Turmas</Nav.Link>
 <Nav.Link >Reports</Nav.Link>

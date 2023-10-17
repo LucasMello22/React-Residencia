@@ -18,7 +18,7 @@ function Header2 (){
                 <Dropdown.Menu>
                  <Dropdown.Item href="/mentor" >Perfil</Dropdown.Item>
                  <Dropdown.Item href="/mentor/turma">Turmas</Dropdown.Item>
-                <Dropdown.Item href="#/action-3">Calendario</Dropdown.Item>
+                <Dropdown.Item href="/mentor/calendario">Calendario</Dropdown.Item>
                 <Dropdown.Divider />
                   <Dropdown.Item href="/">Sair</Dropdown.Item>
              </Dropdown.Menu>
