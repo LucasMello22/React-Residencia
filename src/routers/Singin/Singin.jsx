@@ -2,10 +2,12 @@ import Button from 'react-bootstrap/Button';
 import Col from 'react-bootstrap/Col';
 import Form from 'react-bootstrap/Form';
 import Row from 'react-bootstrap/Row';
-
+import Slider from '../../components/SlideShow/slide';
+import './Singin.css';
 function HorizontalExample() {
   return (
-    <Form>
+    <div className='container'>
+    <Form classname='form-container' id='forms'>
       <Form.Group as={Row} className="mb-3" controlId="formHorizontalEmail">
         <Form.Label column sm={2}>
           Email
@@ -35,6 +37,9 @@ function HorizontalExample() {
         </Col>
       </Form.Group>
     </Form>
+
+    <Slider></Slider>
+    </div>
   );
 }
 
