@@ -6,7 +6,7 @@ import Home from './routers/Home/Home.jsx';
 
 import Mentor from './routers/mentor/MentorInicial.jsx';
 import MenTurma from './routers/mentor/MentorTurmas.jsx';
-
+import MenDiscussao from './routers/mentor/MentorDiscussao.jsx';
 import Singin from './routers/Singin/Singin.jsx'
 import Singup from './routers/Singup/Singup.jsx'
 
@@ -46,6 +46,10 @@ const router = createBrowserRouter([
       {
         path: "/mentor/turma",
         element: <MenTurma />,
+      },
+      {
+        path: "/mentor/discussao",
+        element: <MenDiscussao />,
       },   
     ],
     }
