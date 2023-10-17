@@ -1,8 +1,8 @@
 .footer {
  background-color: #FFF;
- color: rgb(0, 0, 0);
  padding: 3em;
- 
+ bottom: 0;
+
 
 }
 .ul {
@@ -21,7 +21,8 @@
 }
 .hrefs {
     text-decoration: none;
-    color: black;
+    color: rgb(0, 0, 0);
+
 }
 .hrefs:hover {
     transition: color 0.1s;
