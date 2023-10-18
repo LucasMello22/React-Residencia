@@ -17,7 +17,7 @@ const MenDiscussao = () => {
         <Container>
           <Navbar.Collapse className="justify-content-start">
             <Navbar.Text>SQUAD</Navbar.Text>
-            <NavDropdown title="Dropdown" id="basic-nav-dropdown">
+            <NavDropdown title="Menu" id="basic-nav-dropdown">
               <NavDropdown.Item href="#action/3.1">Squad 22</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2">Squad SJCC</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.3">Squad NGPD</NavDropdown.Item>
