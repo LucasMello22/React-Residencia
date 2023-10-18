@@ -2,13 +2,16 @@ import Button from 'react-bootstrap/Button';
 import Col from 'react-bootstrap/Col';
 import Form from 'react-bootstrap/Form';
 import Row from 'react-bootstrap/Row';
-
+import Slider from '../../components/SlideShow/slide';
+import style from'./Singin.css';
 function HorizontalExample() {
   return (
+    <div className={style.conteiner}>
+    <div classname='formcontainer'>
     <Form>
       <Form.Group as={Row} className="mb-3" controlId="formHorizontalEmail">
         <Form.Label column sm={2}>
-          Email
+          E-mail
         </Form.Label>
         <Col sm={10}>
           <Form.Control type="email" placeholder="Email" />
@@ -16,9 +19,7 @@ function HorizontalExample() {
       </Form.Group>
 
       <Form.Group as={Row} className="mb-3" controlId="formHorizontalPassword">
-        <Form.Label column sm={2}>
-          Senha
-        </Form.Label>
+        <Form.Label column sm={2}>Senha</Form.Label>
         <Col sm={10}>
           <Form.Control type="password" placeholder="Senha" />
         </Col>
@@ -35,6 +36,10 @@ function HorizontalExample() {
         </Col>
       </Form.Group>
     </Form>
+    </div>
+    <div className={style.slide}> <Slider></Slider></div>
+    </div>
+    
   );
 }
 
