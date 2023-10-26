@@ -6,6 +6,8 @@ import Slider from '../../components/SlideShow/slide';
 
 function Home() {
   return (
+    <>
+    <div className='divider'></div>
     <div className='container'>
       <Slider></Slider>
       <div className='info-section'>
@@ -33,6 +35,7 @@ function Home() {
         </div>
       </div>
     </div>
+    </>
   );
 }
 
